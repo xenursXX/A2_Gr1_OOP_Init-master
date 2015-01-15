@@ -1,0 +1,25 @@
+{
+    "name": "xenursXX/a2_gr1_oop_init",
+    "require": {
+        "cocur/slugify":   "~1.0",
+        "doctrine/dbal":   "~2.5",
+        "doctrine/orm":    "~2.4",
+        "symfony/console": "~2.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guillaume NOUHAUD",
+            "email": "gui.nouhaud@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "xenursXX\\PokemonBattle\\": "src"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
